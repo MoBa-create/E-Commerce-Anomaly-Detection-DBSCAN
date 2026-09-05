@@ -5,6 +5,8 @@ An Unsupervised Machine Learning project designed to detect potential fraudulent
 ## 📌 Project Overview
 Unlike traditional distance-based algorithms like K-Means, **DBSCAN** clusters data based on spatial density without requiring a predefined number of clusters ($K$). Crucially, it identifies sparse, isolated points as **Noise (-1)**, making it ideal for fraud detection, quality control, and cybersecurity anomaly detection.
 
+![DBSCAN Clustering Result](outputs/dbscan_clusters.png)
+
 ## 🛠️ Tech Stack
 * **Language:** Python
 * **Libraries:** Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn, Joblib
