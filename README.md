@@ -15,15 +15,3 @@ Unlike traditional distance-based algorithms like K-Means, **DBSCAN** clusters d
 ## 📊 Key Findings
 * **Automated Clustering:** Identified dense behavioral clusters without specifying $K$.
 * **Outlier Isolation:** Successfully flagged isolated high-risk transactions (Noise / Outliers) based on transaction frequency and amount.
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MoBa-create/E-Commerce-Anomaly-Detection-DBSCAN.git
-
-
-1 : Install dependencies:
-	pip install -r requirements.txt
-
-2 : Execute the script:
-	python dbscan_anomaly_detection.py
